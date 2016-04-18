@@ -1,0 +1,43 @@
+#gamescreen {
+	width: 800px;
+	height: 600px;
+	background-color: black;
+	margin-left: 20%;
+}
+
+#time>.ui-widget-header {
+	background-color: yellow !important;
+	background: yellow !important;
+}
+
+#progressbar>.ui-widget-header {
+	background-color: red !important;
+	background: red !important;
+}
+
+#progressbar2>.ui-widget-header {
+	background-color: green !important;
+	background: green !important;
+}
+
+#health>.ui-widget-header {
+	background-color: blue !important;
+	background: blue !important;
+}
+
+.gameScr {
+	width: 1000px;
+	height: 650px;
+	margin-left: 20%;
+	box-shadow: 10px 10px 5px #888888;
+	background-image: url(../images/game.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.myButton {
+	width: 200px;
+	height: 75px;
+    border-radius: 50px;
+    width: 70px;
+}
