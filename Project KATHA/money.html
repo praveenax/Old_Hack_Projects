@@ -19,15 +19,17 @@
     </script>
 </head>
 
-<body style="font-family: 'Cantarell', sans-serif;">
+<body>
     <div style="display: block;">
         <!-- <audio autoplay="autoplay" id="backtrack" src="music/beat.mp3" loop>  -->
+<!--
         <audio id="backtrack" src="music/beat.mp3" loop>
-        </audio>
+</audio>
+-->
     </div>
 
 
-    <div class="gameScr" id="gamescreen" style="background-color: gray;">
+    <div class="gameScr" id="gamescreen">
         <br>
         <br>
         <br>
@@ -38,9 +40,9 @@
                 <td valign="top" style="width: 25%;">
                     <div>
                         Total Debt:<span id="totaldebt"></span>
-                        <div id="progressbar"></div>
+                        <div id="progressbar" style="height: 20px;"></div>
                         Energy:<span id="energy"> </span>
-                        <div id="progressbar2"></div>
+                        <div id="progressbar2" style="height: 20px;"></div>
                     </div>
                     <br>
                     <br>
@@ -92,10 +94,10 @@
                     <div style="postion: relative; top: 10px">
 
                         Health:
-                        <div id="health"></div>
+                        <div id="health" style="height: 20px;"></div>
                         <br> Time:
                         <br>
-                        <div id="time"></div>
+                        <div id="time" style="height: 20px;"></div>
                     </div>
                     <br>
                     <br>
@@ -110,14 +112,16 @@
 
     </div>
 
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery-ui.js"></script>
+    <script src="js/lib/jquery.js"></script>
+    <script src="js/lib/jquery-ui.js"></script>
 
-    <script src="js/jquery.ui.core.js"></script>
-    <script src="js/jquery.ui.progressbar.js"></script>
-    <script src="js/jquery-ui.widget.js"></script>
+    <script src="js/lib/jquery.ui.core.js"></script>
+    <script src="js/lib/jquery.ui.progressbar.js"></script>
+    <script src="js/lib/jquery-ui.widget.js"></script>
 
+    <script src="js/Util.js"></script>
     <script src="js/myscript.js"></script>
+
 
 </body>
 
