@@ -1,7 +1,8 @@
 static = {}
 
 static.BULLET_LIMIT = 10
-static.ZONE = 500
+static.ZONE = 450
 static.BULLET_SPEED = 5
+static.PLAYER_SPEED = 20
 
 return static
